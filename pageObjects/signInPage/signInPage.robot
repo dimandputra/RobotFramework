@@ -23,17 +23,18 @@ Input Valid Password
     Input Password                    ${passwordField}    abc123
 
 Input Invalid Password
-    Input Password                    ${passwordField}    Akuntes1
+    Input Password     ${passwordField}    Akuntes1
 
 Input Empty Password 
-    Input Text                        ${userNameField}    ${EMPTY}
+    Input Text         ${userNameField}    ${EMPTY}
 
 Click Sign In Button 
-    Click Element                     ${signInButton2}
+    Click Element      ${signInButton2}
 
 
 # Verify Invalid Toast Message
-#     Wait Until Element Is Visible   ${invalidMessage}
-#     Element Text Should Be          ${invalidMessage}   Invalid username/password
-#  (Belum tau cara mengambil variable toast message)
+#     Wait Until Element Is Visible       ${invalidMessage}    timeout=30s
+    # ${toastMessage}    Get Text             ${invalidMessage}
+    # Should Contain     ${toast_message}     Invalid username/password
+
 
