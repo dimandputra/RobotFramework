@@ -9,7 +9,7 @@ Verify Dashboard Page Appears
     Element Text Should Be           ${signOutButton}    Sign Out
 
 Click Search Flight Button 
-    Click Element    ${searchFlightbutton}
+    Click Element    ${searchFlightButton}
 
 Click Sign Out Button 
     Click Element    ${signOutButton}
