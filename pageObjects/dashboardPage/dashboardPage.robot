@@ -10,3 +10,6 @@ Verify Dashboard Page Appears
 
 Click Search Flight Button 
     Click Element    ${searchFlightbutton}
+
+Click Sign Out Button 
+    Click Element    ${signOutButton}
