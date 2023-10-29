@@ -12,3 +12,7 @@ Verify Homepage Appears
 
 Click Sign In on Homepage
     Click Element                    ${signInButton}
+
+Click Search Button     
+    Click Element    ${searchButton}
+    
