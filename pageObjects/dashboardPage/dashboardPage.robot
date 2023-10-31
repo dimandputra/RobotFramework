@@ -13,3 +13,6 @@ Click Search Flight Button
 
 Click Sign Out Button 
     Click Element    ${signOutButton}
+
+Click Book Flight Button
+    Click Element    ${bookFlightButton}
